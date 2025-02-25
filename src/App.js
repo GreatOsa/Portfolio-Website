@@ -1,7 +1,7 @@
 // import { useContext } from "react";
 // import { ThemeContext } from "./contexts/theme";
 import Header from "./components/Header/Header";
-import About from "./About/About";
+import About from "./components/About/About";
 import Projects from "./components/Project/Projects";
 import { useTheme } from "./contexts/theme";
 import Skills from "./components/Skills/Skills";
@@ -16,7 +16,7 @@ const App = () => {
   // const [{ themeName }] = useContext(ThemeContext);
   const header = {
     // all the properties are optional - can be left empty or deleted
-    homepage: "https://rjshkhr.github.io/cleanfolio",
+    homepage: "./",
     title: "AG.",
   };
 
