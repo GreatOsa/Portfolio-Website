@@ -35,7 +35,13 @@ const App = () => {
   };
   const projects = [
     // projects can be added an removed
-    // if there are no projects, Projects section won't show up
+    {
+      name: "Petriz",
+      description: "A sleek React landing page",
+      stack: ["HTML", "CSS", "React"],
+      sourceCode: "https://github.com/GreatOsa/Petriz-landing-page",
+      livePreview: "https://greatosa.github.io/Petriz-landing-page/",
+    },
     {
       name: "Newsletter Sign up",
       description:
@@ -44,6 +50,7 @@ const App = () => {
       sourceCode: "https://github.com/GreatOsa/Newsletter-sign-up",
       livePreview: "https://greatosa.github.io/Newsletter-sign-up/",
     },
+    // if there are no projects, Projects section won't show up
     {
       name: "Advice Generator",
       description:
